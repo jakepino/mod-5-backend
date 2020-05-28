@@ -1,0 +1,2 @@
+class CastingType < ApplicationRecord
+end

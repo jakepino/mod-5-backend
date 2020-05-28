@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_05_27_135715) do
+ActiveRecord::Schema.define(version: 2020_05_28_154547) do
 
   create_table "comments", force: :cascade do |t|
     t.string "content"
@@ -32,7 +32,7 @@ ActiveRecord::Schema.define(version: 2020_05_27_135715) do
     t.string "rep_type"
     t.string "company"
     t.string "location"
-    t.string "casting_type"
+    t.json "casting_type"
     t.string "name"
     t.string "contact_info"
     t.boolean "unsolicited_submissions"
